@@ -1,0 +1,78 @@
+
+#login, #encuesta {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#login h1, #encuesta h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login form, #encuesta form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login label, #encuesta label {
+    margin-bottom: 5px;
+}
+
+#login input, #encuesta input, #encuesta textarea, #encuesta select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login button, #encuesta button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#productos {
+    padding: 20px;
+}
+
+.productos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center; 
+}
+
+.social-icon {
+    display: inline-block; 
+    margin: 0 10px; 
+    font-size: 24px; 
+}
+
